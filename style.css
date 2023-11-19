@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  system-ui;
+}
+header{
+    background:rgb(16 14 14 / 88%);
+    color: white;
+    padding: 23px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.nav-list{
+    width: 47%;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.logo:hover, .nav-list ul li a:hover{
+    color: rgb(224, 220, 220);
+    cursor: pointer;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    background: #ebebeb;
+}
+.banner{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/6/61/Sunset_Picnic_%28Unsplash%29.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-des{
+    width: 60%;
+    padding: 15px;
+}
+.banner-des div h1{
+    font-size: 3.3rem;
+    text-align: center;
+    /* line-height: 50px; */
+    margin-bottom: 20px;
+}
+.banner-des div p{
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 30px;
+}
+.btn{
+    border: none;
+    border-radius: 4px;
+    padding: 17px 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn-white{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-white .btn:hover{
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s ease-in;
+}
+.btn-white .btn{
+    background: white;
+    margin-top: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service{
+    width: 29%;
+    background-color: white;
+    border-radius: 6px;
+    margin:  20px 0px;
+    padding: 40px;
+}
+.service-img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    
+}
+.service-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.section-title{
+    padding: 50px 0px;
+}
+.section-title h1{
+    font-size: 2rem;
+}
+.section-title p{
+    margin-top: 5px;
+}
+.service h2, p{
+     margin-top: 15px;
+     line-height: 25px;
+}
+.section-width{
+    width: 92%;
+    margin: auto;
+}
+.about div h2{
+    margin-top: 20px;
+   
+}
+
+.about ul{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.about p, h2, ul li{
+  line-height: 25px;
+}
+
+.conatct{
+    display: flex;
+    justify-content: space-between;
+}
+.cont-info{
+    width: 50%;
+}
+/* .cont-form{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+} */
+.cont-info ul{
+    list-style: none;
+}
+.cont-info ul li{
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+}
+.cont-info ul li span{
+    margin-left: 8px;
+}
+.form, .form form{
+    width: 100%;
+}
+.form form input, textarea{
+    width: 85%;
+    padding: 13px;
+    outline: none;
+    /* border-color: rgb(156, 154, 154); */
+    border: 1px solid rgb(156, 154, 154);
+}
+.btn-black{
+    color: white;
+    background-color: rgb(16 14 14 / 88%);
+}
+.conatct{
+    padding-bottom: 50px;
+}
+
+.btn-black:hover{
+    opacity: 0.9;
+    transition: 0.3s ease-in;
+}
