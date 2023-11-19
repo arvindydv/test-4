@@ -13,6 +13,9 @@ header{
     background:rgb(16 14 14 / 88%);
     color: white;
     padding: 23px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -47,7 +50,7 @@ main{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
